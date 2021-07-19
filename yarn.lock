@@ -2487,6 +2487,11 @@ array.prototype.flatmap@^1.2.4:
     es-abstract "^1.18.0-next.1"
     function-bind "^1.1.1"
 
+arraydiff@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.npm.taobao.org/arraydiff/download/arraydiff-0.1.3.tgz#86a5436d7b72f1bdda5fd6d74e8724e42f83ce4d"
+  integrity sha1-hqVDbXty8b3aX9bXTock5C+Dzk0=
+
 arrify@^2.0.1:
   version "2.0.1"
   resolved "https://registry.nlark.com/arrify/download/arrify-2.0.1.tgz?cache=0&sync_timestamp=1619599497996&other_urls=https%3A%2F%2Fregistry.nlark.com%2Farrify%2Fdownload%2Farrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
@@ -2540,7 +2545,7 @@ async-limiter@~1.0.0:
   resolved "https://registry.nlark.com/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
-async@^2.6.2:
+async@^2.6.2, async@^2.6.3:
   version "2.6.3"
   resolved "https://registry.npm.taobao.org/async/download/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
   integrity sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
@@ -4910,6 +4915,11 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/fast-deep-equal/download/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.nlark.com/fast-deep-equal/download/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -5453,6 +5463,11 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+hat@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npm.taobao.org/hat/download/hat-0.0.3.tgz#bb014a9e64b3788aed8005917413d4ff3d502d8a"
+  integrity sha1-uwFKnmSzeIrtgAWRdBPU/z1QLYo=
 
 he@^1.2.0:
   version "1.2.0"
@@ -6815,6 +6830,11 @@ klona@^2.0.4:
   resolved "https://registry.npm.taobao.org/klona/download/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha1-e7Hjr/sMuGJFR+9+j2cI6i4538A=
 
+konva@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.nlark.com/konva/download/konva-8.1.1.tgz?cache=0&sync_timestamp=1625119053368&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fkonva%2Fdownload%2Fkonva-8.1.1.tgz#c92c3f81b371947eade7a8f76ee2df34c71b333c"
+  integrity sha1-ySw/gbNxlH6t56j3buLfNMcbMzw=
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.npm.taobao.org/language-subtag-registry/download/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"
@@ -7731,6 +7751,11 @@ os-browserify@^0.3.0:
   version "0.3.0"
   resolved "https://registry.nlark.com/os-browserify/download/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
+
+ot-json0@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/ot-json0/download/ot-json0-1.1.0.tgz#f5edeff162673b62f0f136bb64724c40ac5e590d"
+  integrity sha1-9e3v8WJnO2Lw8Ta7ZHJMQKxeWQ0=
 
 p-each-series@^2.1.0:
   version "2.2.0"
@@ -9031,6 +9056,23 @@ react-is@^17.0.1:
   resolved "https://registry.nlark.com/react-is/download/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
+react-konva@^17.0.2-5:
+  version "17.0.2-5"
+  resolved "https://registry.nlark.com/react-konva/download/react-konva-17.0.2-5.tgz#e70b0acf323402de0a540f27b300fbe7ed151849"
+  integrity sha1-5wsKzzI0At4KVA8nswD75+0VGEk=
+  dependencies:
+    react-reconciler "~0.26.2"
+    scheduler "^0.20.2"
+
+react-reconciler@~0.26.2:
+  version "0.26.2"
+  resolved "https://registry.nlark.com/react-reconciler/download/react-reconciler-0.26.2.tgz?cache=0&sync_timestamp=1626452948193&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-reconciler%2Fdownload%2Freact-reconciler-0.26.2.tgz#bbad0e2d1309423f76cf3c3309ac6c96e05e9d91"
+  integrity sha1-u60OLRMJQj92zzwzCaxsluBenZE=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.2"
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.nlark.com/react-refresh/download/react-refresh-0.8.3.tgz?cache=0&sync_timestamp=1626452196130&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-refresh%2Fdownload%2Freact-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -9183,6 +9225,11 @@ readdirp@~3.6.0:
   integrity sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
   dependencies:
     picomatch "^2.2.1"
+
+reconnecting-websocket@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npm.taobao.org/reconnecting-websocket/download/reconnecting-websocket-4.4.0.tgz#3b0e5b96ef119e78a03135865b8bb0af1b948783"
+  integrity sha1-Ow5blu8RnnigMTWGW4uwrxuUh4M=
 
 recursive-readdir@2.2.2:
   version "2.2.2"
@@ -9749,6 +9796,17 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+sharedb@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.nlark.com/sharedb/download/sharedb-1.8.3.tgz#0e1ed93f9da6f986f7a11c35c7f5aba4dbb7f9ac"
+  integrity sha1-Dh7ZP52m+Yb3oRw1x/WrpNu3+aw=
+  dependencies:
+    arraydiff "^0.1.1"
+    async "^2.6.3"
+    fast-deep-equal "^2.0.1"
+    hat "0.0.3"
+    ot-json0 "^1.0.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"
