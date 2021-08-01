@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Mind from "./mind";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Mind />
   </React.StrictMode>,
   document.getElementById('root')
 );
